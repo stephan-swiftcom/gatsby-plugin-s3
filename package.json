@@ -12,7 +12,7 @@
         "typecheck": "tsc --project . --noEmit",
         "develop": "babel --extensions=\".ts\" --out-dir=. src/ -w",
         "snyk-protect": "snyk protect",
-        "prepare": "npm run snyk-protect"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
